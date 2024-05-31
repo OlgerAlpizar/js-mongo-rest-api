@@ -1,8 +1,8 @@
 {
   "author": "Olger Alpizar",
-  "name": "user-admin-service",
+  "name": "js-mongo-rest-api",
   "version": "1.0.0",
-  "description": "using node, express, postgresql, graphql",
+  "description": "using node, express, mongo",
   "main": "src/server.ts",
   "scripts": {
     "dev": "nodemon --inspect src/server.ts",
