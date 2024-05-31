@@ -1,6 +1,6 @@
 {
   "author": "Olger Alpizar",
-  "name": "js-mongo-rest-api",
+  "name": "typescript-mongo-rest-api",
   "version": "1.0.0",
   "description": "using node, express, mongo",
   "main": "src/server.ts",

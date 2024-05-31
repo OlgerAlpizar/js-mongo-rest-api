@@ -8,7 +8,7 @@ export const create = async (newUser: User): Promise<User> => {
     const exists = await UserSchemaModel.findOne({ email: newUser.email })
   
     if (exists) {
-      throw new Error(`Email ${newUser.email} already exists`)
+      throw new Error(`User ${newUser.email} already exists`)
     }
 
     const user = new UserSchemaModel(newUser)
